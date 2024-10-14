@@ -6,3 +6,5 @@ console.log(array[2]);
 array.push(60);
 console.log(array);
 console.log(array[5]);
+
+//Remove the first element from an array and log the updated array.
