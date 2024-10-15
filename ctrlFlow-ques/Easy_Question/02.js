@@ -2,7 +2,7 @@
 let num = parseInt(prompt("Enter numbers"));
 let sum = 0;
 
-for(let i = 1; i<=num; i+num){
+for(let i = 1; i<=num; i++){
     sum += i;
 }
-console.log("The sum of all numbers 1 to num: " + num + "is: " + sum);
+document.write("The sum of all numbers 1 to num: " + num + "is: " + sum);
