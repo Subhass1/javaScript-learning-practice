@@ -23,11 +23,12 @@
 			"extensions": [
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
-				"wayou.vscode-todo-highlight"
+				"wayou.vscode-todo-highlight",
+				"ritwickdey.LiveServer"
 			],
 			"settings": {
-				"editor.fontSize": 32,
-				"terminal.integrated.fontSize": 24,
+				"editor.fontSize": 18,
+				"terminal.integrated.fontSize": 14,
 				"editor.wordWrap": "on"
 			}
 			
