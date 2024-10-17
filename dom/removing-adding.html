@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adding removing a class</title>
+  </head>
+  <body>
+    <style>
+        .highlight{
+            color: crimson;
+            padding: 1rem 1rem 1rem 1rem;
+            background-color: darkblue;
+        }
+    </style>
+
+    <!-- ✍️✍️ Notes:
+     ● classList.add() adds a class to an element.
+     ● classList.remove() removes a class from an element. 
+    -->
+
+    <button id="Hover">Hover on this</button>
+
+    <script>
+      document.getElementById("Hover").onmouseover = function () {
+        this.classList.add("highlight");
+      };
+
+      document.getElementById("Hover").onmouseout = function () {
+        this.classList.remove("highlight");
+      };
+    </script>
+  </body>
+</html>
